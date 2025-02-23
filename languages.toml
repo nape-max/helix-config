@@ -3,6 +3,7 @@ name = "go"
 auto-format = true
 formatter = { command = "goimports" }
 
+## python
 [[language]]
 name = "python"
 language-servers = [ "pyright", "ruff" ]
@@ -16,3 +17,23 @@ typeCheckingMode = "basic"
 command = "ruff-lsp"
 [language-server.ruff.config.settings]
 args = ["--ignore", "E501"]
+
+## javascript
+[[language]]
+name = "javascript"
+language-servers = [
+  "typescript-language-server", # optional
+  "vscode-eslint-language-server",
+]
+
+[[language]]
+name = "typescript"
+language-servers = [
+  "typescript-language-server",
+  "vscode-eslint-language-server",
+]
+
+# Markdown
+[[language]]
+name = "markdown"
+language-servers = [ "marksman" ]

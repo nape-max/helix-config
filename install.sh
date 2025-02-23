@@ -1,3 +1,7 @@
+# Desktop
+Download terminal emulator Ghostty from here: https://ghostty.org/download,
+because it's very beautiful
+
 # Golang
 go install golang.org/x/tools/gopls@latest && \                            # LSP
 go install github.com/go-delve/delve/cmd/dlv@latest && \                   # Debugger
@@ -10,3 +14,11 @@ nvm use --lts
 pip3 install pylsp-mypy
 pip3 install ruff-lsp
 npm install pyright -g
+
+# JavaScript
+npm install -g typescript typescript-language-server
+# Svelte
+npm i -g svelte-language-server && npm i -g typescript-svelte-plugin
+
+# Markdown
+brew install marksman
