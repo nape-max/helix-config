@@ -1,0 +1,5 @@
+*
+!.gitignore
+!install.sh
+!config.toml
+!languages.toml

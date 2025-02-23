@@ -1,0 +1,6 @@
+theme = "material_deep_ocean"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
